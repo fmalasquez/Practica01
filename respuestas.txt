@@ -1,0 +1,40 @@
+Las preguntas teóricas ponerlas en un archivo respuestas.txt ubicada dentro del proyecto (pregunta 5), subirlo a github.com
+1. ¿Cuántas secciones tiene una clase?, señale cuáles son obligatorias y cuáles no. Dibujo un ejemplo.
+
+2. Declare un array en Java y asígnele valores.
+Integer lista[ ] = new Integer[ ]{22, 10, 10, 25, 10, 22};
+
+
+2.1 ¿Cómo obtengo el primer elemento del array?
+Colocando el nombre asignado al array seguido de [0] el 0 es la primera posición en el array.
+lista[0];
+
+
+2.2 ¿y el último?
+Si el array tiene 6 elementos sería así: nombreArray[5];
+
+
+2.3 ¿Con qué estructura de control se itera/recorre un array? de un ejemplo.
+        for (int i = 0; i < 10; i++) {   
+        }
+
+
+3. ¿Qué son los request y response?
+El servlet recibe la request de un cliente (navegador) y puede devolver el  response al cliente enviando códigos HTTP.
+
+
+4. ¿Qué son los códigos HTTP (200, 400, 500) ?
+
+200 respuesta satisfactoria, la solicitud ha tenido exito
+400 errores del cliente, puede significar que el servidor no pudo interpretar la solicitud por una mala sintaxis o que el cliente no tiene los permisos necesarios o que el servidor no pudo encontrar el contenido solicitado
+500 errores de servidor 
+
+
+5. Diferencias entre GET y POST.
+get se emplea para leer recursos por sus limitaciones 
+post se envían normalmente con formularios con datos que un get no podría.
+lo que en un crud el post vendría a ser el create y el get el read.
+
+En el restaurante Baby Shark S.A.C. desean implementar un software de gestión web, para ello se pide crear un tabla llamada platillo donde se guardarán los platillos que venden en el restaurant, se desea almacenar el nombre, precio y categoría. El software web debe mostrar una tabla con los datos de la base de datos.
+
+6. Incluir en el mismo proyecto un archivo script.sql los comandos para crear la tabla e insertar los datos.
